@@ -1,0 +1,22 @@
+body{
+    background-color:aquamarine
+}
+
+h1{
+    color:brown;
+    text-align: center;
+}
+
+p{
+    font-family: 'Gill Sans';
+    font-size: 20px;
+    color:rgba(36, 238, 9, 0.658);
+}
+
+#lvalor1{
+    color:rgb(42, 138, 221)
+}
+
+.classe{
+    color:darkblue;
+}

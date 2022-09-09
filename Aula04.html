@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Aula 04</title>
+</head>
+
+<body>
+
+    <p>Oiiii :p</p>
+
+    <script>
+
+        /*alert("Estou rodando");
+
+        const dobro = function (n) {
+            return n * 2;
+        }
+
+        const res = dobro(4);
+        console.log(res);
+
+        const triplo = function (n = 5) {
+            return n * 3;
+        }
+
+        console.log(triplo());
+        console.log(triplo(10));
+        
+
+        let pessoa = {
+            nome: "João",
+            idade: 17,
+        }
+
+        console.log("Me chamo " + pessoa.nome);
+        console.log("Tenho " + pessoa["idade"] + " anos")
+
+        let pessoaComEndereco = {
+            nome: "Maria",
+            idade: 21,
+            endereco: {
+                logradouro: "Rua  João Paulo IV",
+                num: 121,
+            },
+        };
+
+        console.log(`Sou ${pessoaComEndereco.nome},
+                    tenho ${pessoaComEndereco.idade} anos
+                      e moro na ${pessoaComEndereco.endereco["logradouro"]}`)
+
+        let calculadora = {
+            soma: (a, b) => a + b,
+            sub: function (a, b) {
+                return a - b;
+            },
+        };
+
+        console.log(`2 + 3 = ${calculadora.soma(2, 3)}`);
+        console.log(`2 - 3 = ${calculadora.sub(2, 3)}`); 
+        */
+
+        function demorada() {
+            const atualMais2Segundos = new Date().getTime() + 2000
+
+            while (new Date().getTime() <= atualMais2Segundos);
+            const d = 8 + 4
+            return d
+        }
+
+        const a = 2 + 3
+        const b = 5 + 9
+
+        setTimeout(function () {
+            const d = demorada();
+            console.log(d)
+        }, 500);
+
+        /*const d = demorada()*/
+
+        const e = 2 + a + b
+        console.log(e)
+
+
+    </script>
+
+</body>
+
+</html>
